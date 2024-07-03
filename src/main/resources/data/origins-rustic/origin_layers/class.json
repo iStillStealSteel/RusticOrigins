@@ -1,0 +1,24 @@
+{
+  "replace": false,
+  "order": 10,
+  "enabled": true,
+  "origins": [
+    "origins-rustic:blacksmith",
+    "origins-rustic:cleric",
+    "origins-rustic:cook",
+    "origins-rustic:farmer",
+    "origins-rustic:merchant",
+    "origins-rustic:rancher",
+    "origins-rustic:miner",
+    "origins-rustic:rogue",
+    "origins-rustic:warrior",
+    "origins-rustic:archer",
+    "origins-rustic:beastmaster",
+    "origins-rustic:lumberjack",
+    "origins-rustic:explorer",
+    "origins-rustic:nitwit",
+    "origins-rustic:demolition_man",
+    "origins-rustic:mage",
+    "origins-rustic:enchanter"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "powers": [
+    "origins-rustic:demolition_man_pwr/more_explosion_damage",
+    "origins-rustic:demolition_man_pwr/more_firework_damage"
+  ],
+  "icon": "minecraft:tnt",
+  "order": 1,
+  "impact": 0
+}

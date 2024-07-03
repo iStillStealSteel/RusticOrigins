@@ -1,0 +1,8 @@
+{
+  "type": "origins_rustic:modify_bone_meal",
+  "modifier": {
+    "name": "Farmer Bonemeal Bonus",
+    "value": 3.0,
+    "operation": "multiply_base"
+  }
+}

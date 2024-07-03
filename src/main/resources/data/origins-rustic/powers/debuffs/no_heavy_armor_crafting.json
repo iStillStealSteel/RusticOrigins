@@ -1,0 +1,12 @@
+{
+  "type":"origins:modify_crafting",
+  "item_condition":{
+    "type":"origins:ingredient",
+    "ingredient":{
+      "tag":"origins-rustic:heavy_armor"
+    }
+  },
+  "result":{
+    "item":"minecraft:air"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "powers": [
+    "origins-rustic:mage_pwr/fireball"
+  ],
+  "icon": "minecraft:potion",
+  "order": 3,
+  "impact": 0
+}

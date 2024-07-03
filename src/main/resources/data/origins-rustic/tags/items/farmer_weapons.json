@@ -1,0 +1,10 @@
+{
+  "values":[
+    "magistuarmoryaddon:steel_scythe",
+    "magistuarmory:pitchfork",
+    {
+      "id":"#minecraft:swords",
+      "required":false
+    }
+  ]
+}

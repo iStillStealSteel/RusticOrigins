@@ -1,0 +1,33 @@
+{
+  "type": "origins:multiply",
+  "bad_aim": {
+    "type": "origins_rustic:modify_projectile_divergence",
+    "modifier": {
+      "value": 10,
+      "operation": "multiply_total"
+    }
+  },
+  "more_bow_slowdown": {
+    "type": "origins_rustic:modify_speed_on_item_use",
+    "modifier": {
+      "value": 1,
+      "operation": "multiply_base"
+    },
+    "item_condition": {
+      "type": "origins_rustic:range"
+    }
+  },
+  "less_projectile_damage": {
+    "type": "origins:modify_projectile_damage",
+    "damage_condition": {
+      "type": "origins:projectile",
+      "projectile": "minecraft:arrow"
+    },
+    "modifier": {
+      "operation": "addition",
+      "value": 8.0
+    }
+  }
+}
+
+

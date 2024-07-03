@@ -1,0 +1,9 @@
+{
+  "powers": [
+    "origins-rustic:no_projectile_divergence",
+    "origins-rustic:less_bow_slowdown"
+  ],
+  "icon": "minecraft:bow",
+  "order": 11,
+  "impact": 0
+}

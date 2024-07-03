@@ -1,0 +1,86 @@
+{
+  "type": "origins:multiple",
+
+
+  "n": {
+    "type": "origins:resource",
+    "min": 0,
+    "max": 3,
+    "hud_render": {
+      "should_render": true
+    }
+  },
+
+
+  "decay": {
+    "type": "origins:action_over_time",
+    "entity_action": {
+      "type": "origins:change_resource",
+      "resource": "*:*_n",
+      "change": -1
+    },
+    "interval": 1,
+    "condition": {
+      "type": "origins:resource",
+      "resource": "*:*_n",
+      "comparison": ">",
+      "compare_to": 0
+    }
+  },
+
+
+  "key": {
+    "type": "origins:active_self",
+    "entity_action": {
+      "type": "origins:and",
+      "actions": [
+        {
+          "type": "origins:if_else",
+          "condition": {
+            "type": "origins:resource",
+            "resource": "*:*_n",
+            "comparison": "==",
+            "compare_to": 0
+          },
+          "if_action": {
+            "type": "origins:execute_command",
+            "command": "say Primary key pressed!"
+          }
+        },
+        {
+          "type": "origins:change_resource",
+          "resource": "*:*_n",
+          "change": 2
+        }
+      ]
+    },
+    "cooldown": 1,
+    "hud_render": {
+      "should_render": false
+    },
+    "key": {
+      "key": "key.origins.primary_active",
+      "continuous": true
+    }
+  },
+
+
+  "hold_or_release": {
+    "type": "origins:action_over_time",
+    "entity_action": {
+      "type": "origins:execute_command",
+      "command": "say Primary key being held!"
+    },
+    "interval": 1,
+    "falling_action": {
+      "type": "origins:execute_command",
+      "command": "say Primary key released!"
+    },
+    "condition": {
+      "type": "origins:resource",
+      "resource": "*:*_n",
+      "comparison": ">",
+      "compare_to": 1
+    }
+  }
+}

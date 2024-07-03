@@ -1,0 +1,11 @@
+{
+  "powers": [
+    "origins-rustic:miner_pwr/more_stone_break_speed",
+    "origins-rustic:miner_pwr/no_mining_exhaustion",
+    "origins-rustic:miner_pwr/tough_miner_skin",
+    "origins-rustic:miner_pwr/light_miner_armor"
+  ],
+  "icon": "minecraft:iron_pickaxe",
+  "order": 3,
+  "impact": 0
+}

@@ -22,7 +22,7 @@ apply plugin: 'maven-publish'
 apply plugin: 'org.spongepowered.mixin'
 
 mixin {
-    add sourceSets.main, 'origins_classes.refmap.json'
+    add sourceSets.main, 'origins_rustic.refmap.json'
 }
 
 version = project.mod_version
@@ -40,14 +40,14 @@ minecraft {
         client {
             workingDirectory project.file('run')
 
-            args '-mixin.debug=true', '-mixin.debug.export=true', '-mixin.config=origins_classes.mixins.json'
+            args '-mixin.debug=true', '-mixin.debug.export=true', '-mixin.config=origins_rustic.mixins.json'
 
             property 'forge.logging.markers', 'SCAN,REGISTRIES,REGISTRYDUMP'
 
             property 'forge.logging.console.level', 'debug'
 
             mods {
-                origins_classes {
+                origins_rustic {
                     source sourceSets.main
                 }
             }
@@ -56,14 +56,14 @@ minecraft {
         server {
             workingDirectory project.file('run')
 
-            args '-mixin.debug=true', '-mixin.debug.export=true', '-mixin.config=origins_classes.mixins.json'
+            args '-mixin.debug=true', '-mixin.debug.export=true', '-mixin.config=origins_rustic.mixins.json'
 
             property 'forge.logging.markers', 'SCAN,REGISTRIES,REGISTRYDUMP'
 
             property 'forge.logging.console.level', 'debug'
 
             mods {
-                origins_classes {
+                origins_rustic {
                     source sourceSets.main
                 }
             }
@@ -76,10 +76,10 @@ minecraft {
 
             property 'forge.logging.console.level', 'debug'
 
-            args '--mod', 'origins_classes', '--all', '--output', file('src/generated/resources/'), '--existing', file('src/main/resources/')
+            args '--mod', 'origins_rustic', '--all', '--output', file('src/generated/resources/'), '--existing', file('src/main/resources/')
 
             mods {
-                origins_classes {
+                origins_rustic {
                     source sourceSets.main
                 }
             }
@@ -152,7 +152,7 @@ jar {
                 "Implementation-Version"  : mod_version,
                 "Implementation-Vendor"   : mod_author,
                 "Implementation-Timestamp": new Date().format("yyyy-MM-dd'T'HH:mm:ssZ"),
-                "MixinConfigs"            : 'origins_classes.mixins.json'
+                "MixinConfigs"            : 'origins_rustic.mixins.json'
         ])
     }
 }

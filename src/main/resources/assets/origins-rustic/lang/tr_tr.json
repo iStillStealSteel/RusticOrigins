@@ -1,0 +1,160 @@
+{
+  "layer.origins-rustic.class.name": "Sınıf",
+  "layer.origins-rustic.class.missing_origin.name": "Bilinmiyor",
+  "layer.origins-rustic.class.missing_origin.description": "Herhangi bir sınıfın yok.",
+
+  "attribute.origins_rustic.mining_speed": "Mining Speed",
+  "attribute.origins_rustic.projectile_strength": "Projectile Strength",
+
+  "tooltip.origins_rustic.potion_bonus": "Refined",
+  "tooltip.origins_rustic.food": "Nutrition",
+  "tooltip.origins_rustic.saturation_modifier": "Saturation",
+
+  "origin.origins-rustic.warrior.name": "Şavaşcı",
+  "origin.origins-rustic.warrior.description": "Bu Şerefli Şavaşçılar düşmanlarını indirmek için kılıç ve kalkan kullanır.",
+
+  "origin.origins-rustic.archer.name": "Okçu",
+  "origin.origins-rustic.archer.description": "Tek ok, Tek leş.",
+
+  "origin.origins-rustic.rogue.name": "Haydut",
+  "origin.origins-rustic.rogue.description": "Haydutlar pusmakta ve gizli saldırılarda çok iyilerdir.",
+
+  "origin.origins-rustic.beastmaster.name": "Canavar Ustası",
+  "origin.origins-rustic.beastmaster.description": "Canavar Ustaları genelde tek yaşar ve hayvanlarla iç içelerdir.",
+
+  "origin.origins-rustic.blacksmith.name": "Demir Ustası",
+  "origin.origins-rustic.blacksmith.description": "Herkezin iyi arkadaşları Demir Ustaları daha iyi araçlar, silahlar ve zırhlar üretebilmektedirler.",
+
+  "origin.origins-rustic.cleric.name": "İksir Ustası",
+  "origin.origins-rustic.cleric.description": "İksir Ustaları sihri nasıl kendi avantajlarına nasıl kullanacaklarını biliyorlar.",
+
+  "origin.origins-rustic.cook.name": "Aşçı",
+  "origin.origins-rustic.cook.description": "Yemeğini sana Aşçı dan daha iyi hazırlicak kişi yok.",
+
+  "origin.origins-rustic.farmer.name": "Tarımcı",
+  "origin.origins-rustic.farmer.description": "Çiftçiler, herkese yiyecek sağlar.",
+
+  "origin.origins-rustic.merchant.name": "Tüccar",
+  "origin.origins-rustic.merchant.description": "Herzaman fazladan emerald için pazarlık yapar, Tüccarlar uzman Takascılardır.",
+
+  "origin.origins-rustic.rancher.name": "Çiftçi",
+  "origin.origins-rustic.rancher.description": "Hayvanlar iyi şekilde yararlanan, Çiftçiler bir çok kullanışlı malzemeyi toplayabilmekte.",
+
+  "origin.origins-rustic.miner.name": "Madenci",
+  "origin.origins-rustic.miner.description": "Madenciler dünyanın hazinelerini kazmakta ustalar.",
+
+  "origin.origins-rustic.lumberjack.name": "Oduncu",
+  "origin.origins-rustic.lumberjack.description": "Ağaçlar, Oduncular yakınken dikkat etmeli.",
+
+  "origin.origins-rustic.explorer.name": "Maceracı",
+  "origin.origins-rustic.explorer.description": "Maceracılar yollarını zor doğa şartlarına rağmen kolayca bulurlar ve gizli anıtları bulurlar.",
+
+  "origin.origins-rustic.nitwit.name": "Beyinsiz",
+  "origin.origins-rustic.nitwit.description": "Bu Mallar hiç birşeyde iyi değil.",
+
+  "power.origins-rustic.less_shield_slowdown.name": "Kalkan Uzmanı",
+  "power.origins-rustic.less_shield_slowdown.description": "Kalkanını kullanıyorken daha az yavaşlarsın.",
+
+  "power.origins-rustic.sneaky.name": "Sinsi",
+  "power.origins-rustic.sneaky.description": "İsmin duvarların ardından gözükmez, eğilmiyorken bile.",
+
+  "power.origins-rustic.stealth.name": "Gölgelerin İçinde",
+  "power.origins-rustic.stealth.description": "10 Saniy boyunca eğilirsin Gizlilik moduna geçersin.",
+
+  "power.origins-rustic.stealth_core.name": "Gizlilik",
+  "power.origins-rustic.stealth_core.description": "Gizlilik modunda iken, düşmana arkadan saldırdığında daha fazla vurur ve daha az gürültü yaparsın. Eğilmeyi bıraktığında yada bir düşmana vurduğunda gizlilik modundan çıkarsın.",
+
+  "power.origins-rustic.less_bow_slowdown.name": "Kıvrak",
+  "power.origins-rustic.less_bow_slowdown.description": "Yayını çekerken daha hızlı hareket edebilirsin.",
+
+  "power.origins-rustic.no_projectile_divergence.name": "İsabet",
+  "power.origins-rustic.no_projectile_divergence.description": "Fırlattığın tüm şeylerin İsabetliliği daha fazla.",
+
+  "power.origins-rustic.more_attack_damage.name": "Silah Bilgisi",
+  "power.origins-rustic.more_attack_damage.description": "Her silahi tam potensiyallerinde kullanır, biraz daha hasar verir.",
+
+  "power.origins-rustic.tamed_animal_boost.name": "Hayvan Arkadaşlar",
+  "power.origins-rustic.tamed_animal_boost.description": "Senin evcilleştirdiğin hayvanlar daha güçlü ve dayanıklıdır.",
+
+  "power.origins-rustic.tamed_potion_diffusal.name": "Empati",
+  "power.origins-rustic.tamed_potion_diffusal.description": "İksir etkisinde olduğunda etkisi yakındaki evcil hayvanlarıda etkiler.",
+
+  "power.origins-rustic.more_smoker_xp.name": "Duman Fırını Ustası",
+  "power.origins-rustic.more_smoker_xp.description": "Duman Fırınında yemek pişirmekten daha fazla tecrübe puanı alırsın.",
+
+  "power.origins-rustic.better_crafted_food.name": "Doyurucu Öğünler",
+  "power.origins-rustic.better_crafted_food.description": "Senin tarafından yapılan yemekler daha fazla doyurur.",
+
+  "power.origins-rustic.potion_bonus.name": "Uzatılmış İksirler",
+  "power.origins-rustic.potion_bonus.description": "İksir yapımında son aşama olarak, bi iksirin süresini su dolu bir kazana sağ tıklayarak ikiye katlayabilirsin.",
+
+  "power.origins-rustic.better_enchanting.name": "Büyü Ustsı",
+  "power.origins-rustic.better_enchanting.description": "Büyü Masasında daha iyi büyüler çıkarabilirsin.",
+
+  "power.origins-rustic.quality_equipment.name": "Kaliteli Araç-Gereç",
+  "power.origins-rustic.quality_equipment.description": "Senin ürettiğin araçlar küçük artıları vardır.",
+
+  "power.origins-rustic.efficient_repairs.name": "Verimli Tamirler",
+  "power.origins-rustic.efficient_repairs.description": "Anvilde eşya tamir etmek daha az malzeme gerektirir. Ve daha verimli eşya birleştirsin.",
+
+  "power.origins-rustic.more_crop_drops.name": "Verimli Hasat",
+  "power.origins-rustic.more_crop_drops.description": "Mahsul hasat ederken bi şanşla iki katı malzeme alırsın.",
+
+  "power.origins-rustic.better_bone_meal.name": "Verimli Kemik Tozu",
+  "power.origins-rustic.better_bone_meal.description": "Tecrübeli ellerinde kemik tozu iki katı daha etkili.",
+
+  "power.origins-rustic.twin_breeding.name": "İkizler",
+  "power.origins-rustic.twin_breeding.description": "Doğurttuğun hayvanlar bi şanşla ikiz olur.",
+
+  "power.origins-rustic.more_animal_loot.name": "Verimli Eller",
+  "power.origins-rustic.more_animal_loot.description": "Bazen hayvanlardan daha fazla malzeme düşürürsün.",
+
+  "power.origins-rustic.trade_availability.name": "Hızlı Stoklama",
+  "power.origins-rustic.trade_availability.description": "Takas yaptığın köylülerün stokları bitmez.",
+
+  "power.origins-rustic.rare_wandering_loot.name": "Karizma",
+  "power.origins-rustic.rare_wandering_loot.description": "Gezgin Tüccarları sana daha kaliteli eşylaranı göstermeye ikna edebilirsin.",
+
+  "power.origins-rustic.no_sprint_exhaustion.name": "Fit",
+  "power.origins-rustic.no_sprint_exhaustion.description": "Koşmak seni yormaz.",
+
+  "power.origins-rustic.explorer_kit.name": "Maceracı Kiti",
+  "power.origins-rustic.explorer_kit.description": "Oyunu bir pusula, bir saat ve dokuz boş harita ile başlarsın.",
+
+  "power.origins-rustic.no_mining_exhaustion.name": "Tecrübeli Madenci",
+  "power.origins-rustic.no_mining_exhaustion.description": "Blok Kırmak Seni Yormaz.",
+
+  "power.origins-rustic.more_stone_break_speed.name": "Uzman Madenci",
+  "power.origins-rustic.more_stone_break_speed.description": "Taşları daha hızlı kırarsın.",
+
+  "power.origins-rustic.tree_felling.name": "Timber!",
+  "power.origins-rustic.tree_felling.description": "Eğilmediğin sürece koca ağaçları tekte kessebilirsin.",
+
+  "power.origins-rustic.more_planks_from_logs.name": "Verimli Üretim",
+  "power.origins-rustic.more_planks_from_logs.description": "1 kütükten 6 tahta alırsın.",
+
+  "power.origins-rustic.items/effecient_digger.name": "Effecient Digger",
+  "power.origins-rustic.items/effecient_digger.description": "+10% Break Speed",
+
+  "power.origins-rustic.items/sharp_blade.name": "Sharp Blade",
+  "power.origins-rustic.items/sharp_blade.description": "+0.5 Attack Damage",
+
+  "power.origins-rustic.items/steady_shield.name": "Steady Shield",
+  "power.origins-rustic.items/steady_shield.description": "+10% Knockback Resistance",
+
+  "power.origins-rustic.items/strong_string.name": "Strong String",
+  "power.origins-rustic.items/strong_string.description": "+2 Projectile Damage",
+
+  "power.origins-rustic.items/tough_helmet.name": "Tough",
+  "power.origins-rustic.items/tough_helmet.description": "+0.25 Armor Toughness",
+
+  "power.origins-rustic.items/tough_chestplate.name": "Tough",
+  "power.origins-rustic.items/tough_chestplate.description": "+0.25 Armor Toughness",
+
+  "power.origins-rustic.items/tough_leggings.name": "Tough",
+  "power.origins-rustic.items/tough_leggings.description": "+0.25 Armor Toughness",
+
+  "power.origins-rustic.items/tough_shoes.name": "Tough",
+  "power.origins-rustic.items/tough_shoes.description": "+0.25 Armor Toughness"
+
+}

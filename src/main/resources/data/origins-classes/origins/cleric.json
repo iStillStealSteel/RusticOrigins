@@ -1,9 +1,0 @@
-{
-  "powers": [
-    "origins-classes:potion_bonus",
-    "origins-classes:better_enchanting"
-  ],
-  "icon": "minecraft:experience_bottle",
-  "order": 7,
-  "impact": 0
-}

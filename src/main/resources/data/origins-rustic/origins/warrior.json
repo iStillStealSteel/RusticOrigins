@@ -1,0 +1,9 @@
+{
+  "powers": [
+    "origins-rustic:warrior_pwr/heavy_armor_debuff",
+    "origins-rustic:warrior_pwr/worse_ranged_weapons"
+  ],
+  "icon": "minecraft:iron_sword",
+  "order": 10,
+  "impact": 0
+}

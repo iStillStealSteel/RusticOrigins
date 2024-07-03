@@ -1,0 +1,17 @@
+{
+  "powers": [
+    "origins-rustic:farmer_pwr/more_crop_drops",
+    "origins-rustic:farmer_pwr/better_bone_meal",
+    "origins-rustic:farmer_pwr/tough_farmer_skin",
+    "origins-rustic:farmer_pwr/farmland_lover",
+    "origins-rustic:farmer_pwr/farm_lover",
+    "origins-rustic:farmer_pwr/light_farmer_armor",
+    "origins-rustic:farmer_pwr/more_damage",
+    "origins-rustic:farmer_pwr/less_ores",
+    "origins-rustic:farmer_pwr/less_damage",
+    "origins-rustic:debuffs/no_heavy_armor_crafting"
+  ],
+  "icon": "minecraft:wheat",
+  "order": 1,
+  "impact": 0
+}

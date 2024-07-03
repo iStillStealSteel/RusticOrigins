@@ -1,33 +1,33 @@
 modLoader = "javafml"
 loaderVersion = "[40,)"
 license = "MIT"
-issueTrackerURL="https://github.com/LimonBlaze/origins-classes-forge/issues"
+issueTrackerURL="https://github.com/iStillStealSteel/RusticOrigins/issues"
 
 [[mods]]
-modId = "origins_classes"
+modId = "origins_rustic"
 version = "${version}"
-displayName = "Origins: Classes"
-displayURL="https://github.com/LimonBlaze/origins-classes-forge/"
+displayName = "Origins: Rustic"
+displayURL="https://github.com/iStillStealSteel/RusticOrigins"
 logoFile="pack.png"
-credits="Thanks Apace for the original work, and thanks EdwinMindcraft for the forge port!"
-authors="LimonBlaze"
-description = "An add-on for the Origins mod which adds classes to the game."
+credits="Thanks Apace for the original work, thanks EdwinMindcraft for the forge port, and thanks to limonblaze for this architecture!"
+authors="iStillStealSteel (Bobo)"
+description = "An add-on for the Origins mod which adds classes to the game for Rustic-Craft server."
 
-[[dependencies.origins_classes]]
+[[dependencies.origins_rustic]]
 modId = "minecraft"
 mandatory = true
 versionRange = "${mc_requirements}"
 ordering = "NONE"
 side = "BOTH"
 
-[[dependencies.origins_classes]]
+[[dependencies.origins_rustic]]
 modId = "forge"
 mandatory = true
 versionRange = "${forge_requirements}"
 ordering = "NONE"
 side = "BOTH"
 
-[[dependencies.origins_classes]]
+[[dependencies.origins_rustic]]
 modId = "origins"
 mandatory = true
 versionRange = "${origins_requirements}"

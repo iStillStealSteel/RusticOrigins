@@ -1,0 +1,271 @@
+{
+  "type": "origins:multiple",
+  "heavy_armor_slowness": {
+    "type": "origins:action_over_time",
+    "entity_action": {
+      "type": "origins:apply_effect",
+      "effect": {
+        "effect": "minecraft:slowness",
+        "duration": 100,
+        "show_particles": false,
+        "show_icon": false,
+        "amplifier": 0
+      }
+    },
+    "interval": 10,
+    "condition": {
+      "type": "origins:or",
+      "conditions": [
+        {
+          "type": "origins:equipped_item",
+          "equipment_slot": "head",
+          "item_condition": {
+            "type": "origins:armor_value",
+            "comparison": ">=",
+            "compare_to": 2
+          }
+        },
+        {
+          "type": "origins:equipped_item",
+          "equipment_slot": "chest",
+          "item_condition": {
+            "type": "origins:armor_value",
+            "comparison": ">=",
+            "compare_to": 5
+          }
+        },
+        {
+          "type": "origins:equipped_item",
+          "equipment_slot": "legs",
+          "item_condition": {
+            "type": "origins:armor_value",
+            "comparison": ">=",
+            "compare_to": 3
+          }
+        },
+        {
+          "type": "origins:equipped_item",
+          "equipment_slot": "feet",
+          "item_condition": {
+            "type": "origins:armor_value",
+            "comparison": ">=",
+            "compare_to": 2
+          }
+        }
+      ]
+    }
+  },
+  "ignore_water": {
+    "type": "origins:ignore_water",
+    "condition": {
+      "type": "origins:or",
+      "conditions": [
+        {
+          "type": "origins:equipped_item",
+          "equipment_slot": "head",
+          "item_condition": {
+            "type": "origins:armor_value",
+            "comparison": ">=",
+            "compare_to": 2
+          }
+        },
+        {
+          "type": "origins:equipped_item",
+          "equipment_slot": "chest",
+          "item_condition": {
+            "type": "origins:armor_value",
+            "comparison": ">=",
+            "compare_to": 5
+          }
+        },
+        {
+          "type": "origins:equipped_item",
+          "equipment_slot": "legs",
+          "item_condition": {
+            "type": "origins:armor_value",
+            "comparison": ">=",
+            "compare_to": 3
+          }
+        },
+        {
+          "type": "origins:equipped_item",
+          "equipment_slot": "feet",
+          "item_condition": {
+            "type": "origins:armor_value",
+            "comparison": ">=",
+            "compare_to": 2
+          }
+        }
+      ]
+    }
+  },
+  "slowness_in_water": {
+    "type": "origins:action_over_time",
+    "entity_action": {
+      "type": "origins:apply_effect",
+      "effect": {
+        "effect": "minecraft:slowness",
+        "duration": 100,
+        "show_particles": false,
+        "show_icon": false,
+        "amplifier": 3
+      }
+    },
+    "condition": {
+      "type": "origins:and",
+      "conditions": [
+        {
+          "type": "origins:or",
+          "conditions": [
+            {
+              "type": "origins:equipped_item",
+              "equipment_slot": "head",
+              "item_condition": {
+                "type": "origins:armor_value",
+                "comparison": ">=",
+                "compare_to": 2
+              }
+            },
+            {
+              "type": "origins:equipped_item",
+              "equipment_slot": "chest",
+              "item_condition": {
+                "type": "origins:armor_value",
+                "comparison": ">=",
+                "compare_to": 5
+              }
+            },
+            {
+              "type": "origins:equipped_item",
+              "equipment_slot": "legs",
+              "item_condition": {
+                "type": "origins:armor_value",
+                "comparison": ">=",
+                "compare_to": 3
+              }
+            },
+            {
+              "type": "origins:equipped_item",
+              "equipment_slot": "feet",
+              "item_condition": {
+                "type": "origins:armor_value",
+                "comparison": ">=",
+                "compare_to": 2
+              }
+            }
+          ]
+        },
+        {
+          "type": "origins:submerged_in",
+          "fluid": "minecraft:water"
+        }
+      ]
+    }
+  },
+  "heavy_armor_hunger": {
+    "type": "origins:modify_exhaustion",
+    "modifier": {
+      "name": "Increased exhaustion",
+      "operation": "multiply_base",
+      "value": 2.0
+    },
+    "condition": {
+      "type": "origins:or",
+      "conditions": [
+        {
+          "type": "origins:equipped_item",
+          "equipment_slot": "head",
+          "item_condition": {
+            "type": "origins:armor_value",
+            "comparison": ">=",
+            "compare_to": 2
+          }
+        },
+        {
+          "type": "origins:equipped_item",
+          "equipment_slot": "chest",
+          "item_condition": {
+            "type": "origins:armor_value",
+            "comparison": ">=",
+            "compare_to": 5
+          }
+        },
+        {
+          "type": "origins:equipped_item",
+          "equipment_slot": "legs",
+          "item_condition": {
+            "type": "origins:armor_value",
+            "comparison": ">=",
+            "compare_to": 3
+          }
+        },
+        {
+          "type": "origins:equipped_item",
+          "equipment_slot": "feet",
+          "item_condition": {
+            "type": "origins:armor_value",
+            "comparison": ">=",
+            "compare_to": 2
+          }
+        }
+      ]
+    }
+  },
+  "no_jumping_in_water": {
+    "type": "origins:modify_jump",
+    "modifier": {
+      "operation": "multiply_total",
+      "value": -0.9
+    },
+    "condition": {
+      "type": "origins:and",
+      "conditions": [
+        {
+          "type": "origins:or",
+          "conditions": [
+            {
+              "type": "origins:equipped_item",
+              "equipment_slot": "head",
+              "item_condition": {
+                "type": "origins:armor_value",
+                "comparison": ">=",
+                "compare_to": 2
+              }
+            },
+            {
+              "type": "origins:equipped_item",
+              "equipment_slot": "chest",
+              "item_condition": {
+                "type": "origins:armor_value",
+                "comparison": ">=",
+                "compare_to": 5
+              }
+            },
+            {
+              "type": "origins:equipped_item",
+              "equipment_slot": "legs",
+              "item_condition": {
+                "type": "origins:armor_value",
+                "comparison": ">=",
+                "compare_to": 3
+              }
+            },
+            {
+              "type": "origins:equipped_item",
+              "equipment_slot": "feet",
+              "item_condition": {
+                "type": "origins:armor_value",
+                "comparison": ">=",
+                "compare_to": 2
+              }
+            }
+          ]
+        },
+        {
+          "type": "origins:submerged_in",
+          "fluid": "minecraft:water"
+        }
+      ]
+    }
+  }
+}

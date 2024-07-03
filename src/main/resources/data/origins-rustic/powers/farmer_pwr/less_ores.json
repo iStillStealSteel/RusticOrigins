@@ -1,0 +1,16 @@
+{
+    "type": "origins:replace_loot_table",
+    "replace": {
+        "([a-z|0-9|\\-|_]).*:blocks\/([a-z|0-9|\\-|_].*)_ore": "origins-rustic:less_ores"
+    },
+    "condition": {
+        "type": "origins:equipped_item",
+        "inverted": true,
+        "equipment_slot": "mainhand",
+        "item_condition": {
+            "type": "origins:enchantment",
+            "enchantment": "minecraft:silk_touch",
+            "comparison": "==",
+            "compare_to": 1}
+    }
+}

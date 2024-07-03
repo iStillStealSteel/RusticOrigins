@@ -1,9 +1,9 @@
 # Origin: Classes (Forge)
-[![GitHub issues](https://img.shields.io/github/issues/ChannelingMC/origins-classes-forge?style=flat-square)](https://github.com/ChannelingMC/origins-classes-forge/issues)
-[![GitHub license](https://img.shields.io/github/license/ChannelingMC/origins-classes-forge?color=0690ff&style=flat-square)](https://github.com/ChannelingMC/origins-classes-forge/blob/1.19.2/LICENSE)
-[![](http://cf.way2muchnoise.eu/610127.svg?badge_style=flat)](https://www.curseforge.com/minecraft/mc-mods/origins-classes-forge)
+[![GitHub issues](https://img.shields.io/github/issues/ChannelingMC/origins-rustic-forge?style=flat-square)](https://github.com/ChannelingMC/origins-rustic-forge/issues)
+[![GitHub license](https://img.shields.io/github/license/ChannelingMC/origins-rustic-forge?color=0690ff&style=flat-square)](https://github.com/ChannelingMC/origins-rustic-forge/blob/1.19.2/LICENSE)
+[![](http://cf.way2muchnoise.eu/610127.svg?badge_style=flat)](https://www.curseforge.com/minecraft/mc-mods/origins-rustic-forge)
 
-An unofficial Forge port for [Origin: Classes](https://github.com/apace100/origins-classes)<br>
+An unofficial Forge port for [Origin: Classes](https://github.com/apace100/origins-rustic)<br>
 This mod depends on [Origins (Forge)](https://github.com/EdwinMindcraft/origins-forge), please have the proper version of that mod installed!
 
 ## Description
@@ -36,5 +36,5 @@ Classes available are the following:
 3. For pull requests: I'm open to PRs. If you'd like to contribute with the mod, feel free to open a PR!
 
 ## Further Infomation
-For more information and a download link, visit the [CurseForge page](https://www.curseforge.com/minecraft/mc-mods/origins-classes-forge).
+For more information and a download link, visit the [CurseForge page](https://www.curseforge.com/minecraft/mc-mods/origins-rustic-forge).
 You may also download the mod from the git repo's release, but please be aware of potential bugs in alpha and beta versions :)

@@ -1,0 +1,10 @@
+{
+  "powers": [
+    "origins-rustic:enchanter_pwr/more_xp",
+    "origins-rustic:enchanter_pwr/better_enchanting",
+    "origins-rustic:enchanter_pwr/less_damage"
+  ],
+  "icon": "minecraft:experience_bottle",
+  "order": 1,
+  "impact": 0
+}
