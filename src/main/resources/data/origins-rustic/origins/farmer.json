@@ -9,7 +9,8 @@
     "origins-rustic:farmer_pwr/more_damage",
     "origins-rustic:farmer_pwr/less_ores",
     "origins-rustic:farmer_pwr/less_damage",
-    "origins-rustic:debuffs/no_heavy_armor_crafting"
+    "origins-rustic:debuffs/no_heavy_armor_crafting",
+    "origins-rustic:debuffs/no_flame_bow"
   ],
   "icon": "minecraft:wheat",
   "order": 1,
