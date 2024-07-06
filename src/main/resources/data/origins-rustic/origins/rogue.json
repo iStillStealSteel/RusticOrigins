@@ -2,7 +2,10 @@
   "powers": [
     "origins-rustic:rogue-pwr/sneaky",
     "origins-rustic:rogue-pwr/stealth",
-    "origins-rustic:rogue-pwr/stealth_core"
+    "origins-rustic:rogue-pwr/stealth_core",
+    "origins-rustic:rogue-pwr/invisibility_ability_structure",
+    "origins-rustic:rogue-pwr/more_damage",
+    "origins-rustic:debuffs/no_heavy_armor_crafting"
   ],
   "icon": "minecraft:leather_helmet",
   "order": 12,

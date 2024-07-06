@@ -5,12 +5,12 @@
     "origins-rustic:farmer_pwr/tough_farmer_skin",
     "origins-rustic:farmer_pwr/farmland_lover",
     "origins-rustic:farmer_pwr/farm_lover",
-    "origins-rustic:farmer_pwr/light_farmer_armor",
     "origins-rustic:farmer_pwr/more_damage",
-    "origins-rustic:farmer_pwr/less_ores",
     "origins-rustic:farmer_pwr/less_damage",
     "origins-rustic:debuffs/no_heavy_armor_crafting",
-    "origins-rustic:debuffs/no_flame_bow"
+    "origins-rustic:debuffs/no_flame_bow",
+    "origins-rustic:debuffs/less_ores",
+    "origins-rustic:debuffs/light_armor_only"
   ],
   "icon": "minecraft:wheat",
   "order": 1,

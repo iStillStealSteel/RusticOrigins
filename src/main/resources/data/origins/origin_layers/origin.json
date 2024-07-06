@@ -1,0 +1,11 @@
+{
+  "replace": true,
+  "order": 1,
+  "enabled": true,
+  "name": "Climate",
+  "origins": [
+    "origins:temp_cold",
+    "origins:temp_temperate",
+    "origins:temp_hot"
+  ]
+}

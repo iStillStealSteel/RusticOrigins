@@ -1,7 +1,11 @@
 {
   "powers": [
-    "origins-rustic:no_projectile_divergence",
-    "origins-rustic:less_bow_slowdown"
+    "origins-rustic:archer_pwr/no_projectile_divergence",
+    "origins-rustic:archer_pwr/less_bow_slowdown",
+    "origins-rustic:debuffs/less_ores",
+    "origins-rustic:debuffs/light_armor_only",
+    "origins-rustic:debuffs/less_crops",
+    "origins-rustic:debuffs/no_heavy_armor_crafting"
   ],
   "icon": "minecraft:bow",
   "order": 11,

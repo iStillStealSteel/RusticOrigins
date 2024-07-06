@@ -6,6 +6,6 @@
     "operation": "multiply_base"
   },
   "item_condition": {
-    "type": "origins_rustic:range"
+    "type": "origins-rustic:range"
   }
 }

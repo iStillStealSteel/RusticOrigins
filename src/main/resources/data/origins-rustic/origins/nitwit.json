@@ -1,5 +1,11 @@
 {
-  "powers": [],
+  "powers": [
+    "origins-rustic:debuffs/no_flame_bow",
+    "origins-rustic:debuffs/less_ores",
+    "origins-rustic:debuffs/light_armor_only",
+    "origins-rustic:debuffs/less_crops",
+    "origins-rustic:debuffs/no_heavy_armor_crafting"
+  ],
   "icon": "minecraft:green_wool",
   "order": 0,
   "impact": 0

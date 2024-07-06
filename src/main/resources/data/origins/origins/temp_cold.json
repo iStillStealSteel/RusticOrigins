@@ -1,0 +1,9 @@
+{
+  "powers": [
+    "origins:heat_stroke"
+  ],
+  "icon": "minecraft:ice",
+  "name": "Cold climate",
+  "order": 1,
+  "impact": 0
+}

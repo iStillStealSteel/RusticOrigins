@@ -1,7 +1,12 @@
 {
   "powers": [
-    "origins-rustic:warrior_pwr/heavy_armor_debuff",
-    "origins-rustic:warrior_pwr/worse_ranged_weapons"
+    "origins-rustic:warrior_pwr/heavy_armor",
+    "origins-rustic:warrior_pwr/heavy_weapon",
+    "origins-rustic:warrior_pwr/worse_ranged_weapons",
+    "origins-rustic:debuffs/no_flame_bow",
+    "origins-rustic:debuffs/less_ores",
+    "origins-rustic:debuffs/less_crops",
+    "origins-rustic:debuffs/no_heavy_armor_crafting"
   ],
   "icon": "minecraft:iron_sword",
   "order": 10,

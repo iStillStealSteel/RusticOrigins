@@ -1,7 +1,5 @@
 {
   "type": "origins:multiple",
-
-
   "n": {
     "type": "origins:resource",
     "min": 0,
@@ -10,8 +8,6 @@
       "should_render": true
     }
   },
-
-
   "decay": {
     "type": "origins:action_over_time",
     "entity_action": {
@@ -27,8 +23,6 @@
       "compare_to": 0
     }
   },
-
-
   "key": {
     "type": "origins:active_self",
     "entity_action": {

@@ -2,6 +2,8 @@
   "replace": false,
   "values": [
     "#origins-rustic:bows",
-    "#origins-rustic:crossbows"
+    "#origins-rustic:crossbows",
+    "magistuarmory:longbow",
+    "magistuarmory:heavy_crossbow"
   ]
 }

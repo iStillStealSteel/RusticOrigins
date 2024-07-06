@@ -1,0 +1,13 @@
+{
+  "condition": {
+    "type": "origins:exposed_to_sun"
+  },
+  "type": "origins:conditioned_attribute",
+  "modifier": {
+    "attribute": "minecraft:generic.movement_speed",
+    "operation": "multiply_base",
+    "value": -0.4
+  },
+  "tick_rate": 20,
+  "update_health": false
+}

@@ -2,6 +2,7 @@
   "values":[
     "magistuarmoryaddon:steel_scythe",
     "magistuarmory:pitchfork",
+    "magistuarmoryaddon:steel_sickle",
     {
       "id":"#minecraft:swords",
       "required":false

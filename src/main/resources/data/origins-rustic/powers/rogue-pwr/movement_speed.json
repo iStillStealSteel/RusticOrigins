@@ -1,0 +1,35 @@
+{
+  "type": "origins_multiple",
+  "dagger_ms": {
+    "type": "origins:conditioned_attribute",
+    "modifier": {
+      "attribute": "minecraft:generic.movement_speed",
+      "operation": "multiply_base",
+      "value": 0.2
+    },
+    "tick_rate": 20,
+    "condition": {
+      "type": "origins:equipped_item",
+      "equipment_slot": "mainhand",
+      "item_condition": {
+        "type": "origins:ingredient",
+        "ingredient": {
+          "tag": "origins-rustic:daggers"
+        }
+      }
+    }
+  },
+  "night_ms": {
+    "type": "origins:conditioned_attribute",
+    "modifier": {
+      "attribute": "minecraft:generic.movement_speed",
+      "operation": "multiply_base",
+      "value": 0.2
+    },
+    "tick_rate": 20,
+    "condition": {
+      "inverted":true,
+      "type": "origins:daytime"
+    }
+  }
+}
