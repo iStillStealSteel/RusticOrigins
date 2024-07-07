@@ -1,0 +1,15 @@
+{
+  "condition": {
+    "type": "origins:biome",
+    "condition": {
+      "type": "origins:precipitation",
+      "precipitation": "none"
+    }
+  },
+  "type": "origins:modify_exhaustion",
+  "modifier": {
+    "name": "Increased exhaustion",
+    "operation": "multiply_base",
+    "value": 0.5
+  }
+}

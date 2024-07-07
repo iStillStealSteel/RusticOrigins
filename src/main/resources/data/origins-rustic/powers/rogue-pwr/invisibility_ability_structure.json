@@ -1,5 +1,7 @@
 {
   "type": "origins:multiple",
+
+
   "n": {
     "type": "origins:resource",
     "min": 0,
@@ -8,6 +10,8 @@
       "should_render": true
     }
   },
+
+
   "decay": {
     "type": "origins:action_over_time",
     "entity_action": {
@@ -23,6 +27,8 @@
       "compare_to": 0
     }
   },
+
+
   "key": {
     "type": "origins:active_self",
     "entity_action": {
@@ -37,8 +43,12 @@
             "compare_to": 0
           },
           "if_action": {
-            "type": "origins:execute_command",
-            "command": "say Primary key pressed!"
+            "type": "origins:grant_power",
+            "power": {
+              "type": "origins:invisibility",
+              "render_armor": false
+            },
+            "source": "example:power_source"
           }
         },
         {
@@ -62,8 +72,12 @@
   "hold_or_release": {
     "type": "origins:action_over_time",
     "entity_action": {
-      "type": "origins:execute_command",
-      "command": "say Primary key being held!"
+      "type": "origins:grant_power",
+      "power": {
+        "type": "origins:invisibility",
+        "render_armor": false
+      },
+      "source": "example:power_source"
     },
     "interval": 1,
     "falling_action": {
