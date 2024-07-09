@@ -5,7 +5,8 @@
     "origins-rustic:rogue-pwr/stealth_core",
     "origins-rustic:rogue-pwr/invisibility_ability_structure",
     "origins-rustic:rogue-pwr/more_damage",
-    "origins-rustic:debuffs/no_heavy_armor_crafting"
+    "origins-rustic:debuffs/no_heavy_armor_crafting",
+    "origins-rustic:debuffs/worse_enchants"
   ],
   "icon": "minecraft:leather_helmet",
   "order": 12,

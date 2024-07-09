@@ -53,4 +53,7 @@ public class OriginsRusticPowers {
     // Adventurer
     public static final RegistryObject<DummyPower> NO_SPRINT_EXHAUSTION = POWER_FACTORIES.register("no_sprint_exhaustion", DummyPower::new);
 
+    public static final RegistryObject<RepairItemPower> REPAIR_ITEM = POWER_FACTORIES.register("repair_item", RepairItemPowerFactory::new);
+
+
 }

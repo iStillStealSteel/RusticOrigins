@@ -4,7 +4,8 @@
     "origins-rustic:debuffs/less_ores",
     "origins-rustic:debuffs/light_armor_only",
     "origins-rustic:debuffs/less_crops",
-    "origins-rustic:debuffs/no_heavy_armor_crafting"
+    "origins-rustic:debuffs/no_heavy_armor_crafting",
+    "origins-rustic:debuffs/worse_enchants"
   ],
   "icon": "minecraft:green_wool",
   "order": 0,

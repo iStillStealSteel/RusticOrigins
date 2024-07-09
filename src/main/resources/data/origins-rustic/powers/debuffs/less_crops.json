@@ -2,7 +2,7 @@
   "type": "origins_rustic:modify_block_loot",
   "modifier": {
     "name": "Farmer Crop Loot Bonus",
-    "value": -0.8,
+    "value": -0.9,
     "operation": "multiply_base"
   },
   "block_condition": {

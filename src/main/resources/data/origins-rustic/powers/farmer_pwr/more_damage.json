@@ -2,7 +2,7 @@
   "type":"origins:modify_damage_dealt",
   "modifier":{
     "operation":"multiply_base",
-    "value":0.3
+    "value":0.15
   },
   "condition": {
     "type": "origins:equipped_item",

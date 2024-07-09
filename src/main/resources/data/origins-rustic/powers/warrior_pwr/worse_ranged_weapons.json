@@ -3,7 +3,7 @@
   "bad_aim": {
     "type": "origins_rustic:modify_projectile_divergence",
     "modifier": {
-      "value": 10,
+      "value": 100,
       "operation": "multiply_total"
     }
   },

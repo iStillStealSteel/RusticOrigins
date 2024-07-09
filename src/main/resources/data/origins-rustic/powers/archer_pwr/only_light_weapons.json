@@ -10,7 +10,7 @@
     "item_condition": {
       "type": "origins:ingredient",
       "ingredient": {
-        "tag":"origins-rustic:light_weapons"
+        "tag":"origins-rustic:heavy_weapons"
       }
     }
   }

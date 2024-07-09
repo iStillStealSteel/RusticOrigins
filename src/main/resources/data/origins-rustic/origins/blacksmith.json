@@ -1,12 +1,11 @@
 {
   "powers": [
-    "origins-rustic:blacksmith_pwr/quality_equipment",
     "origins-rustic:blacksmith_pwr/efficient_repairs",
     "origins-rustic:blacksmith_pwr/less_damage",
     "origins-rustic:debuffs/no_flame_bow",
     "origins-rustic:debuffs/less_ores",
-    "origins-rustic:debuffs/light_armor_only",
-    "origins-rustic:debuffs/less_crops"
+    "origins-rustic:debuffs/less_crops",
+    "origins-rustic:debuffs/worse_enchants"
   ],
   "icon": "minecraft:iron_ingot",
   "order": 6,

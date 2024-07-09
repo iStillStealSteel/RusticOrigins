@@ -213,7 +213,7 @@
     "type": "origins:conditioned_attribute",
     "modifier": {
       "attribute": "minecraft:generic.armor",
-      "value": 4.0,
+      "value": 2.0,
       "operation": "addition"
     },
     "condition": {
