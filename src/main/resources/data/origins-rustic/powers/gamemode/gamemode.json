@@ -1,0 +1,21 @@
+{
+  "type": "origins:active_self",
+  "entity_action": {
+    "type": "origins:if_else",
+    "condition": {
+      "type": "origins:gamemode",
+      "gamemode": "survival"
+    },
+    "if_action": {
+      "type": "origins:execute_command",
+      "command": "gamemode spectator"
+    },
+    "else_action": {
+      "type": "origins:execute_command",
+      "command": "gamemode survival"
+    }
+  },
+  "hud_render": {
+    "should_render": false
+  }
+}

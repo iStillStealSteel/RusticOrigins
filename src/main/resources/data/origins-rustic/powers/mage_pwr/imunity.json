@@ -1,0 +1,9 @@
+{
+  "type":"origins:effect_immunity",
+  "effects":[
+    "minecraft:poison",
+    "minecraft:weakness",
+    "minecraft:slowness",
+    "minecraft:instant_damage"
+  ]
+}

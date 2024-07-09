@@ -17,6 +17,7 @@ import io.github.edwinmindcraft.apoli.common.power.ModifyValuePower;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.RegistryObject;
 
+
 public class OriginsRusticPowers {
     public static final DeferredRegister<PowerFactory<?>> POWER_FACTORIES = DeferredRegister.create(ApoliRegistries.POWER_FACTORY_KEY, OriginsRustic.MODID);
 
@@ -52,8 +53,5 @@ public class OriginsRusticPowers {
     public static final RegistryObject<DummyPower> NO_MINING_EXHAUSTION = POWER_FACTORIES.register("no_mining_exhaustion", DummyPower::new);
     // Adventurer
     public static final RegistryObject<DummyPower> NO_SPRINT_EXHAUSTION = POWER_FACTORIES.register("no_sprint_exhaustion", DummyPower::new);
-
-    public static final RegistryObject<RepairItemPower> REPAIR_ITEM = POWER_FACTORIES.register("repair_item", RepairItemPowerFactory::new);
-
-
+    
 }
