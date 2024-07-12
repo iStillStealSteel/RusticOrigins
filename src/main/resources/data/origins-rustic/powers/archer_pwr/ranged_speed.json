@@ -15,5 +15,6 @@
         "tag": "origins-rustic:ranged_weapons"
       }
     }
-  }
+  },
+  "hidden": true
 }

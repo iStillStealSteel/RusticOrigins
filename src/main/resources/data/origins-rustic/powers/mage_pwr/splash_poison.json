@@ -3,7 +3,7 @@
   "entity_action": {
     "type": "origins:spawn_effect_cloud",
     "radius": 10.0,
-    "wait_time": 40,
+    "wait_time": 5,
     "effect": {
       "effect": "minecraft:poison",
       "amplifier": 2,

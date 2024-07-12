@@ -1,5 +1,5 @@
 {
-  "type": "origins_multiple",
+  "type": "origins:multiple",
   "dagger_ms": {
     "type": "origins:conditioned_attribute",
     "modifier": {
@@ -24,12 +24,13 @@
     "modifier": {
       "attribute": "minecraft:generic.movement_speed",
       "operation": "multiply_base",
-      "value": 0.2
+      "value": 0.1
     },
     "tick_rate": 20,
     "condition": {
       "inverted":true,
       "type": "origins:daytime"
     }
-  }
+  },
+  "hidden": true
 }

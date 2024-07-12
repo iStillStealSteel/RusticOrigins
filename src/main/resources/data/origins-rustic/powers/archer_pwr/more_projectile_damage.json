@@ -1,0 +1,8 @@
+{
+  "type": "origins:modify_projectile_damage",
+  "modifier": {
+    "operation": "multiply_base",
+    "value": 0.10
+  },
+  "hidden": true
+}

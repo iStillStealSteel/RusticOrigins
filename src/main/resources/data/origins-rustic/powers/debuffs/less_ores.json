@@ -12,5 +12,6 @@
             "enchantment": "minecraft:silk_touch",
             "comparison": "==",
             "compare_to": 1}
-    }
+    },
+    "hidden": true
 }

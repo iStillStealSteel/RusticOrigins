@@ -15,5 +15,6 @@
       "value": 1.0,
       "operation": "multiply_base"
     }
-  }
+  },
+  "hidden": true
 }

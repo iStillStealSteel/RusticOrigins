@@ -1,5 +1,5 @@
 {
-  "type": "origins:multiply",
+  "type": "origins:multiple",
   "bad_aim": {
     "type": "origins_rustic:modify_projectile_divergence",
     "modifier": {
@@ -27,7 +27,8 @@
       "operation": "addition",
       "value": 8.0
     }
-  }
+  },
+  "hidden": true
 }
 
 

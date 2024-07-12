@@ -1,5 +1,7 @@
 {
   "powers": [
+    "origins:cold_stroke_for_temp",
+    "origins:heat_stroke_for_temp"
   ],
   "icon": "minecraft:oak_leaves",
   "name": "Temperate climate",

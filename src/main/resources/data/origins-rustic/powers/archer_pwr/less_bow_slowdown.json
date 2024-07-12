@@ -5,7 +5,11 @@
     "value": 2.0,
     "operation": "multiply_base"
   },
-  "item_condition": {
-    "type": "origins-rustic:range"
-  }
+  "item_condition":{
+    "type":"origins:ingredient",
+    "ingredient":{
+      "tag":"origins-rustic:range_weapons"
+    }
+  },
+  "hidden": true
 }

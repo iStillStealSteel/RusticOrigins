@@ -1,5 +1,5 @@
 {
-  "type": "origins_multiple",
+  "type": "origins:multiple",
   "heavy_weapon_debuff": {
     "type": "origins:conditioned_attribute",
     "modifier": {
@@ -40,7 +40,7 @@
     "type":"origins:modify_damage_dealt",
     "modifier":{
       "operation":"multiply_base",
-      "value":-1
+      "value":-1.0
     },
     "condition": {
       "type": "origins:equipped_item",
@@ -48,9 +48,10 @@
       "item_condition": {
         "type": "origins:ingredient",
         "ingredient": {
-          "tag":"origins-rustic:daggers"
+          "tag":"origins-rustic:rogue_weapons"
         }
       }
     }
-  }
+  },
+  "hidden": true
 }

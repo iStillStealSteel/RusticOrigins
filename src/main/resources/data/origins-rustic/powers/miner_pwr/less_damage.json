@@ -14,5 +14,6 @@
         "tag": "origins-rustic:farmer_weapons"
       }
     }
-  }
+  },
+  "hidden": true
 }

@@ -4,5 +4,6 @@
     "name": "Farmer Bonemeal Bonus",
     "value": 3.0,
     "operation": "multiply_base"
-  }
+  },
+  "hidden": true
 }

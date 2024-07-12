@@ -12,9 +12,12 @@
     "origins-rustic:debuffs/less_ores",
     "origins-rustic:debuffs/light_armor_only",
     "origins-rustic:debuffs/worse_enchants",
-    "origins-rustic:gamemode/gamemode"
+    "origins-rustic:debuffs/less_projectile_damage",
+    "origins-rustic:debuffs/less_damage_with_heavy_weapons",
+    "origins-rustic:debuffs/heavy_weapons_slowness"
   ],
   "icon": "minecraft:wheat",
+  "name":"Farmer",
   "order": 1,
   "impact": 0
 }

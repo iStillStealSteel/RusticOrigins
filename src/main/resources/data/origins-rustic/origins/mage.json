@@ -1,14 +1,27 @@
 {
   "powers": [
     "origins-rustic:mage_pwr/immunity",
+    "origins-rustic:mage_pwr/less_damage",
     "origins-rustic:mage_pwr/thunder_resistance",
+    "origins-rustic:mage_pwr/slightly_better_enchants",
     "origins-rustic:debuffs/no_flame_bow",
     "origins-rustic:debuffs/less_ores",
-    "origins-rustic:debuffs/light_armor_only",
     "origins-rustic:debuffs/less_crops",
-    "origins-rustic:debuffs/no_heavy_armor_crafting"
+    "origins-rustic:debuffs/no_heavy_armor_crafting",
+    "origins-rustic:debuffs/less_damage_with_heavy_weapons",
+    "origins-rustic:debuffs/heavy_weapons_slowness",
+    "origins-rustic:debuffs/less_projectile_damage",
+    "origins-rustic:mage_pwr/armor/armor1",
+    "origins-rustic:mage_pwr/armor/armor2",
+    "origins-rustic:mage_pwr/armor/armor3",
+    "origins-rustic:mage_pwr/armor/armor4",
+    "origins-rustic:mage_pwr/armor/armor5",
+    "origins-rustic:mage_pwr/armor/armor6",
+    "origins-rustic:mage_pwr/armor/armor7",
+    "origins-rustic:mage_pwr/armor/armor8"
   ],
   "icon": "minecraft:potion",
+  "name": "Mage",
   "order": 3,
   "impact": 0
 }

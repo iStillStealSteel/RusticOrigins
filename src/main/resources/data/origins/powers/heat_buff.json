@@ -10,5 +10,6 @@
       "type": "origins:precipitation",
       "precipitation": "none"
     }
-  }
+  },
+  "hidden": true
 }

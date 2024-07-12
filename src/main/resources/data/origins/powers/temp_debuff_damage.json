@@ -8,7 +8,8 @@
     "type": "origins:biome",
     "condition": {
       "type": "origins:precipitation",
-      "precipitation": "snow"
+      "precipitation": "rain"
     }
-  }
+  },
+  "hidden": true
 }

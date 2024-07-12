@@ -11,5 +11,6 @@
   },
   "condition": {
     "type": "origins:using_effective_tool"
-  }
+  },
+  "hidden": true
 }

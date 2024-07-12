@@ -9,9 +9,8 @@
     "origins-rustic:rogue",
     "origins-rustic:warrior",
     "origins-rustic:archer",
-    "origins-rustic:nitwit",
-    "origins-rustic:demolition_man",
     "origins-rustic:mage",
     "origins-rustic:enchanter"
-  ]
+  ],
+  "name": "Profession"
 }

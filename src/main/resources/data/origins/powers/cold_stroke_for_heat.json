@@ -30,6 +30,10 @@
             "item": "usefulhats:chopping_hat"
           }
         }
+      },
+      {
+        "inverted": true,
+        "type": "origins:daytime"
       }
     ]
   },
@@ -40,5 +44,6 @@
     "value": -0.2
   },
   "tick_rate": 20,
-  "update_health": false
+  "update_health": false,
+  "hidden": true
 }

@@ -3,5 +3,6 @@
   "damage_condition":{
     "type":"origins:name",
     "name":"lightningBolt"
-  }
+  },
+  "hidden": true
 }

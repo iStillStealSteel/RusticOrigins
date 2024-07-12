@@ -1,0 +1,15 @@
+{
+  "type": "origins:conditioned_attribute",
+  "modifier": {
+    "attribute": "minecraft:generic.armor",
+    "value": -1.0,
+    "operation": "addition"
+  },
+  "condition": {
+    "type": "origins:attribute",
+    "attribute": "minecraft:generic.armor",
+    "comparison": "==",
+    "compare_to": 11.0
+  },
+  "hidden": true
+}

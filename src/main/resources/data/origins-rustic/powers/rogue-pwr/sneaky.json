@@ -4,6 +4,7 @@
     "attribute": "forge:nametag_distance",
     "name": "No Nametag Render",
     "value": -1.0,
-    "operation": "multiply_totall"
-  }
+    "operation": "multiply_total"
+  },
+  "hidden": true
 }

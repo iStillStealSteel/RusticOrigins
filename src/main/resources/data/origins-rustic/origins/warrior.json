@@ -7,9 +7,11 @@
     "origins-rustic:debuffs/less_ores",
     "origins-rustic:debuffs/less_crops",
     "origins-rustic:debuffs/no_heavy_armor_crafting",
-    "origins-rustic:debuffs/worse_enchants"
+    "origins-rustic:debuffs/worse_enchants",
+    "origins-rustic:debuffs/less_projectile_damage"
   ],
   "icon": "minecraft:iron_sword",
+  "name": "Warrior",
   "order": 10,
   "impact": 0
 }

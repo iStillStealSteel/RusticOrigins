@@ -2,6 +2,7 @@
   "type": "origins:modify_xp_gain",
   "modifier": {
     "operation": "multiply_base",
-    "value": 3.0
-  }
+    "value": 1.0
+  },
+  "hidden": true
 }

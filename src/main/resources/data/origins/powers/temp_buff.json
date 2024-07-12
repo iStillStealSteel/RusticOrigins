@@ -10,5 +10,6 @@
       "type": "origins:precipitation",
       "precipitation": "rain"
     }
-  }
+  },
+  "hidden": true
 }

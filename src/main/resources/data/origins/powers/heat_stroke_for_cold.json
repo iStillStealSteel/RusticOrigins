@@ -37,8 +37,9 @@
   "modifier": {
     "attribute": "minecraft:generic.movement_speed",
     "operation": "multiply_base",
-    "value": -0.4
+    "value": -0.25
   },
   "tick_rate": 20,
-  "update_health": false
+  "update_health": false,
+  "hidden": true
 }

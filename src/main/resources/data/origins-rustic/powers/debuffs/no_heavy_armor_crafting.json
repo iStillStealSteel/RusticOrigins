@@ -8,5 +8,6 @@
   },
   "result":{
     "item":"minecraft:air"
-  }
+  },
+  "hidden": true
 }

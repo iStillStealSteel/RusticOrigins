@@ -2,7 +2,7 @@
   "type":"origins:modify_damage_dealt",
   "modifier":{
     "operation":"multiply_base",
-    "value":0.15
+    "value":0.10
   },
   "condition": {
     "type": "origins:equipped_item",
@@ -13,5 +13,6 @@
         "tag":"origins-rustic:farmer_weapons"
       }
     }
-  }
+  },
+  "hidden": true
 }

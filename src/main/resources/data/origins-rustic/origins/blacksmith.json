@@ -2,12 +2,18 @@
   "powers": [
     "origins-rustic:blacksmith_pwr/efficient_repairs",
     "origins-rustic:blacksmith_pwr/less_damage",
+    "origins-rustic:blacksmith_pwr/heavy_armor_debuff",
+    "origins-rustic:blacksmith_pwr/bonus_blacksmith_damage",
     "origins-rustic:debuffs/no_flame_bow",
     "origins-rustic:debuffs/less_ores",
     "origins-rustic:debuffs/less_crops",
-    "origins-rustic:debuffs/worse_enchants"
+    "origins-rustic:debuffs/worse_enchants",
+    "origins-rustic:debuffs/less_projectile_damage",
+    "origins-rustic:debuffs/less_damage_with_heavy_weapons",
+    "origins-rustic:debuffs/heavy_weapons_slowness"
   ],
-  "icon": "minecraft:iron_ingot",
+  "icon": "minecraft:anvil",
+  "name":"Blacksmith" ,
   "order": 6,
   "impact": 0
 }

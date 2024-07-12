@@ -11,5 +11,6 @@
     "name": "Increased exhaustion",
     "operation": "multiply_base",
     "value": 0.2
-  }
+  },
+  "hidden": true
 }

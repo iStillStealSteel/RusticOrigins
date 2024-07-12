@@ -1,6 +1,7 @@
 {
   "powers": [
-    "origins:heat_stroke"
+    "origins:heat_stroke_for_cold",
+    "origins:heat_hunger_for_cold"
   ],
   "icon": "minecraft:ice",
   "name": "Cold climate",

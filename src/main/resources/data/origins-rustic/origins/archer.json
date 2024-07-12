@@ -2,13 +2,19 @@
   "powers": [
     "origins-rustic:archer_pwr/no_projectile_divergence",
     "origins-rustic:archer_pwr/less_bow_slowdown",
+    "origins-rustic:archer_pwr/more_projectile_damage",
+    "origins-rustic:archer_pwr/ranged_speed",
+    "origins-rustic:archer_pwr/less_damage",
     "origins-rustic:debuffs/less_ores",
     "origins-rustic:debuffs/light_armor_only",
     "origins-rustic:debuffs/less_crops",
     "origins-rustic:debuffs/worse_enchants",
-    "origins-rustic:debuffs/no_heavy_armor_crafting"
+    "origins-rustic:debuffs/no_heavy_armor_crafting",
+    "origins-rustic:debuffs/less_damage_with_heavy_weapons",
+    "origins-rustic:debuffs/heavy_weapons_slowness"
   ],
   "icon": "minecraft:bow",
+  "name": "Archer",
   "order": 11,
   "impact": 0
 }

@@ -13,5 +13,6 @@
         "tag":"origins-rustic:heavy_weapons"
       }
     }
-  }
+  },
+  "hidden": true
 }

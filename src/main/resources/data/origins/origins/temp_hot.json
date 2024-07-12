@@ -1,5 +1,7 @@
 {
   "powers": [
+    "origins:cold_stoke_for_heat",
+    "origins:cold_hunger"
   ],
   "icon": "minecraft:dead_bush",
   "name": "Hot climate",

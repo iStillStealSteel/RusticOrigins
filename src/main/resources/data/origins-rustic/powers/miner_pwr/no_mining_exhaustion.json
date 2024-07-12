@@ -1,3 +1,4 @@
 {
-  "type": "origins_rustic:no_mining_exhaustion"
+  "type": "origins_rustic:no_mining_exhaustion",
+  "hidden": true
 }

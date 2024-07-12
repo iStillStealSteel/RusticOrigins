@@ -41,7 +41,7 @@
     "type": "apoli:modify_damage_dealt",
     "modifier": {
       "name": "Stealth Damage Multiplier",
-      "value": 1.0,
+      "value": 0.2,
       "operation": "multiply_base"
     },
     "damage_condition": {
@@ -69,5 +69,6 @@
       "comparison": "==",
       "compare_to": 10
     }
-  }
+  },
+  "hidden": true
 }

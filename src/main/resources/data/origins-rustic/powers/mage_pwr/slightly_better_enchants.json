@@ -2,7 +2,8 @@
   "type": "origins_rustic:modify_enchanting_level",
   "modifier": {
     "name": "Cleric Enchanting Bonus",
-    "value": 20.0,
+    "value": 5,
     "operation": "addition"
-  }
+  },
+  "hidden": true
 }

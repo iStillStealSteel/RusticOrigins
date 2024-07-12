@@ -108,7 +108,7 @@
     "modifier": {
       "name": "Increased exhaustion",
       "operation": "multiply_base",
-      "value": 2.0
+      "value": 1.0
     },
     "condition": {
       "type": "origins:or",
@@ -222,5 +222,6 @@
       "comparison": ">=",
       "compare_to": 18.0
     }
-  }
+  },
+  "hidden": true
 }

@@ -10,5 +10,6 @@
       "type": "origins:precipitation",
       "precipitation": "snow"
     }
-  }
+  },
+  "hidden": true
 }
